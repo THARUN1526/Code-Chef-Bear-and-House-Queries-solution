@@ -1,0 +1,16 @@
+The algorithm:
+
+1. The code starts with some preprocessor directives and macro definitions, including data types, constants, and shorthand notations.
+
+2. The main code starts with the `solve()` function. It initializes three variables `th`, `sw`, and `tw` with initial values of -1.
+
+3. It defines three conditions: `cond1`, `cond2`, and `cond3`. These conditions are used to perform binary searches in different directions by making queries to determine whether certain conditions are satisfied.
+
+4. The binary search is performed using the variables `l` and `r`, which represent the left and right boundaries of the search range. The `cond1`, `cond2`, and `cond3` conditions are used to update the boundaries and narrow down the search range until the desired condition is met.
+
+5. After the binary searches, the values of `th`, `sw`, and `tw` are determined.
+
+6. Finally, the `give()` function is called to output the result.
+
+7. The `main()` function initializes the necessary variables and calls the `solve()` function.
+
